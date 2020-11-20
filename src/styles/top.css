@@ -1,0 +1,44 @@
+*{
+	word-wrap: normal;
+}
+
+.container{
+	/* border:1px solid green; */
+	width: 60%;
+	height: 20%;
+}
+.card {
+	/* border: 1px aquamarine solid; */
+	border-radius: 5px;
+	width: auto;
+	padding: 1%;
+	
+}
+.picha{
+	background-image: url(../images/realcoder.jpg);
+	background-size: contain;
+	/* background-repeat: no-repeat; */
+}
+
+.complete {
+	border: 1px solid green;
+	border-radius: 2px;
+	margin: 5px 0px;
+	/* width: fit-content; */
+	
+	background-size: 2% 4%;
+}
+
+.easy{
+	font-weight: bold;
+}
+
+.start{
+	background-color: black;
+	color: whitesmoke;
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	width: 10%;
+	height: 300px;
+}

@@ -1,12 +1,11 @@
 import React from 'react';
-import Container from './top';
-import Card from './card'
+import Complete from './complete';
+import './styles/top.css';
 
 function App(props) {
 	return (
 		<div className="container">
-			<Container/>
-			<Card />
+			<Complete />
 		</div>
 	);
 }
