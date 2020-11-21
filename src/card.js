@@ -1,18 +1,17 @@
 import React from 'react';
 import './styles/top.css';
+import Socials from './socials'
 
-const complete = () => {
+const complete = (props) => {
 	return (
-		<div className="complete">
+		<div className="card">
 			<p className="top-part">
-				Kimutai codes @kimutai-codes
+				<span className="k b">Kimutai codes:</span>
 				<br />
-				"Starting Small" sucks but that's the way
+				"Starting Small" sucks but that's the way!
 				<br />
-				{'{author:@allano}'}
 			</p>
-			<div className="card">
-				<div className="picha"></div>
+			<div className="inner-card">
 				<p className="start">
 					Real Learners start From <span className="zero">0</span>
 				</p>
@@ -21,11 +20,11 @@ const complete = () => {
 				</p>
 				<p>
 					Avoid the endless consumption of tutorials and get your
-					hands dirty.You'll cry but it will pay off one day
+					hands dirty.You'll cry but it will pay off one day...
 				</p>
-				<span>@k-codes.com</span>
+				<span className="k">k-codes</span>
 			</div>
-
+			<Socials/>
 		</div>
 	);
 };
