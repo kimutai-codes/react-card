@@ -1,15 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './styles/top.css';
-import Card from "./card"
+import App from './app';
 
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <Card />
-    <Card/>
-    <Card/>
+    <App/>
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -8,12 +8,13 @@ const complete = (props) => {
 			<p className="top-part">
 				<span className="k b">Kimutai codes:</span>
 				<br />
-				"Starting Small" sucks but that's the way!
+				Starting Small sucks but that's the way!
 				<br />
 			</p>
 			<div className="inner-card">
 				<p className="start">
-					Real Learners start From <span className="zero">0</span>
+					{/* Real Learners start From <span className="zero">0</span> */}
+					{props.quote}
 				</p>
 				<p className="easy">
 					Nothing comes easy.Move the needle everyday!
@@ -24,7 +25,7 @@ const complete = (props) => {
 				</p>
 				<span className="k">k-codes</span>
 			</div>
-			<Socials/>
+			<Socials />
 		</div>
 	);
 };

@@ -3,7 +3,6 @@ import './styles/top.css';
 
 import { FaComment } from 'react-icons/fa';
 import { FaRetweet } from 'react-icons/fa';
-// import { RiInboxArchiveLine } from 'react-icons/fa';
 
 const socials = (props) => {
 	return (
@@ -14,9 +13,7 @@ const socials = (props) => {
 			<li>
 				<FaRetweet />
 			</li>
-			<li>
-				{/* <RiInboxArchiveLine /> */}
-			</li>
+			
 		</ul>
 	);
 };
